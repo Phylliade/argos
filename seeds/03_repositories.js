@@ -3,7 +3,7 @@ exports.seed = (knex, Promise) =>
     Promise.all([
       knex('repositories').insert([
         {
-          id: 1,
+          id: '1',
           githubId: 23083156,
           name: 'material-ui',
           enabled: true,
@@ -14,7 +14,7 @@ exports.seed = (knex, Promise) =>
           updatedAt: new Date().toISOString(),
         },
         {
-          id: 2,
+          id: '2',
           githubId: 31123797,
           name: 'SplitMe',
           enabled: true,
@@ -25,7 +25,7 @@ exports.seed = (knex, Promise) =>
           updatedAt: new Date().toISOString(),
         },
         {
-          id: 3,
+          id: '3',
           githubId: 14022421,
           name: 'doctolib',
           enabled: true,

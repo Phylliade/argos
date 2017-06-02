@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 /* global jasmine */
 import * as allServices from 'server/services/all'
 import * as database from 'server/services/database'

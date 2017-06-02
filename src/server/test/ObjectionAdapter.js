@@ -1,3 +1,5 @@
+// https://github.com/aexmachina/factory-girl/blob/master/src/adapters/ObjectAdapter.js ?
+
 /* eslint-disable class-methods-use-this */
 export default class ObjectionAdapter {
   build(Model, props) {
